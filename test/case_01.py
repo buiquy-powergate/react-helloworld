@@ -10,7 +10,7 @@ chrome_options.add_argument("--headless")
 driver = webdriver.Chrome(options=chrome_options)
 start_url = "https://duckgo.com"
 driver.get(start_url)
-print(driver.page_source.encode("utf-8"))
+#print(driver.page_source.encode("utf-8"))
 
 assert 1 == 1
 
